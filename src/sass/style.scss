@@ -1,6 +1,12 @@
 @import "base/func";
 @import "fonts/font";
 @import "libs/bootstrap";
+@import "libs/_variables";
+@import "libs/_bootswatch";
+
+
+// Layout
+@import "layout/_header";
 
 // Pages
 @import "pages/_home";
