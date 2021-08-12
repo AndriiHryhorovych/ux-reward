@@ -4,6 +4,68 @@
 		height: 42px;
 	}
 }
+.nav {
+	color: #FFF;
+	& nav-link dropdown-toggle{
+		transition: 0.3s;
+		color: #FFF;
+	}
+	& a{
+		transition: 0.3s;
+		color: #FFF;
+		&:hover {
+			color: grey!important;
+			transition: 0.3s;
+		}
+	}
+}
+.menu2{
+	& a{
+		position: relative;
+		color: #FFF;
+		text-decoration: none;
+		transition:0.3s;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #fff;
+		&:hover {
+			color: grey!important;
+			transition: 0.3s;
+		}
+		& span {
+			padding-left: 11px;
+		}
+	}
+	&__bag {
+		& img{
+			width: 34px;
+			height: 34px;
+		}
+		&-count{
+			width: 24px;
+			height: 24px;
+			font-size: 16px;
+			border-radius:50%;
+			background-color: #ff5e6e;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: left;
+			color: #fff!important;
+			position: absolute;
+			top:-25%;
+			right:-25%;
+		}
+
+	}
+}
 
 
 
