@@ -1,8 +1,44 @@
-// .background-image{
+.home{
+	&__slider{
+		color: #FFF;
+	}
+	&__products{
+		&-line{
+			&-item{
+				padding: 20px;
+				// &:first-child{
+				// 	padding-left: 0!important;
+				// }
+				& img{
+					width: 270px;
+					height: 446px;
+					// padding: 0 20px;
+				}
+				&-name{
+					font-size: 20px;
+					font-weight: normal;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: normal;
+					letter-spacing: normal;
+					text-align: left;
+					color: #fff;
+				}
+				&-price {
+					font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffbd2c;
+				}
 
-// 			position: absolute;
-// 			left: 0;
-// 			top: 0;
-			
-// 			width: 100vh;
-// 		}
+			}
+		}
+
+	}	
+}
+
+
