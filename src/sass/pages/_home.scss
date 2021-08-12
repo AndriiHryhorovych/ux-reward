@@ -5,15 +5,30 @@
 	&__products{
 		&-line{
 			&-item{
-				padding: 20px;
+				
+				display: block;
+				padding-top: 21px;
+				// padding: 10px 0 ;
+				// width:100px;
+				// height: auto;
 				// &:first-child{
 				// 	padding-left: 0!important;
 				// }
-				& img{
-					width: 270px;
-					height: 446px;
+				&-img{
+					position: relative;
+					padding-top:140%;
+					// background-color:red;
 					// padding: 0 20px;
+					& .a{
+						position: absolute;
+						top:0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+					}
 				}
+				
+
 				&-name{
 					font-size: 20px;
 					font-weight: normal;
@@ -26,13 +41,13 @@
 				}
 				&-price {
 					font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffbd2c;
+					font-weight: normal;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: normal;
+					letter-spacing: normal;
+					text-align: left;
+					color: #ffbd2c;
 				}
 
 			}
