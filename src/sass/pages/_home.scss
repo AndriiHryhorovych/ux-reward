@@ -52,8 +52,32 @@
 
 			}
 		}
-
-	}	
+		&-button{
+			& a{
+				text-decoration: none;
+				width: 438px;
+				height: 64px;
+				flex-grow: 0;
+				margin: 68px 0 115px 0;
+  				border-radius: 8px;
+  				border: solid 2px #000;
+  				background-color: #ffbd2c;
+  				font-size: 26px;
+  				font-weight: bold;
+  				color: #000;
+  				img{
+  					padding-left:10px;
+  					transition: 0.3s;
+  				}
+  				&:hover{
+  					img{
+  						transform: translateX(10px);
+  						transition: 0.3s;
+  					}
+  				}
+  			}
+  		}
+  	}	
 }
 
 
