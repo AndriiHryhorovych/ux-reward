@@ -85,7 +85,7 @@
 		}
 		&-title {
 			padding: 51px 0 0 53px;
-			h3 {
+			h2 {
 				font-size: 46px;
 				font-weight: 500;
 				font-stretch: normal;
@@ -137,10 +137,38 @@
 					background-color:gray;
 					transition: 0.3s;
 				}
+			}	
+		}
+	}
+	&__apps {
+		.row{
+			padding-top: 171px;
+		}
+		&-title{
+			h2 {
+				font-size: 46px;
+				font-weight: bold;
+				text-align: left;
+				color: #fff;
+				text-transform: uppercase;
 			}
-
-
-			
+			.Line-1 {
+				width: 187px;
+				height: 5px;
+				flex-grow: 0;
+				margin: 19px 0 23px 0;
+				background-color: #c07cd1;
+			}
+			span {
+				font-size: 18px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.56;
+				letter-spacing: normal;
+				text-align: left;
+				color: #fff;
+			}
 		}
 	}
 }
