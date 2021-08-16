@@ -3,9 +3,9 @@
 		color: #FFF;
 	}
 	&__products{
+					padding-top: 102px ;
 		&-line{
-			&-item{
-				
+			&-item{			
 				display: block;
 				padding-top: 21px;
 				// padding: 10px 0 ;
@@ -319,7 +319,10 @@
 
 	}
 }
-
+// .swiper-container {
+//   top: ;
+//   width: 100%;
+// }
 
 // Для слайдера:
 // .slick-container{
