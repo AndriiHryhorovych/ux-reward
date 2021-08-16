@@ -8,6 +8,11 @@
     <meta name="title" content="Gulp template">
     <meta name="description" content="">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- /swiper -->
+
 </head>
 <body class="background-image " style="background-image: url('img/background.svg')">
     <header class="header">
@@ -17,241 +22,273 @@
                     <a href="#"><img src="img/Logo.svg" alt="logo"></a>
                 </div>
                 <div class="col-md-8 menu d-flex align-items-center">
-                   <ul class="nav nav-pills ">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop Now</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Winners</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2 d-flex justify-content-between align-items-center menu2">
-                    <a href="#">
-                        <img src="img\lock.svg" alt="lock">
-                        <span>Sign In</span>
-                    </a>
-                    <a href="#" class="menu2__bag d-flex justify-content-center align-items-center">
-                        <img src="img/shopping-bag.svg" alt="shopping bag">
-                        <div class="menu2__bag-count d-flex justify-content-center align-items-center">1</div>
-                    </a>
-                </div>
+                 <ul class="nav nav-pills ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop Now</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Winners</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 d-flex justify-content-between align-items-center menu2">
+                <a href="#">
+                    <img src="img\lock.svg" alt="lock">
+                    <span>Sign In</span>
+                </a>
+                <a href="#" class="menu2__bag d-flex justify-content-center align-items-center">
+                    <img src="img/shopping-bag.svg" alt="shopping bag">
+                    <div class="menu2__bag-count d-flex justify-content-center align-items-center">1</div>
+                </a>
             </div>
         </div>
-    </header>
-    <section class="home__slider">
+    </div>
+</header>
+<section class="home__slider">
+    <div class="container">
         <div class="row">
             <div class="d-col-12">
-                Slider
+
+                <!-- swiper -->
+
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/Slide2.png"></div>
+                        <div class="swiper-slide"><img src="img/Slide2.png"></div>
+                        <div class="swiper-slide"><img src="img/Slide2.png"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+                <!-- /swiper -->
+
             </div>
         </div>
-    </section>
-    <section class="home__products">
-        <div class="container">
-            <div class="row home__products-line justify-content-between">
-                <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product1.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+    </div>
+
+</section>
+<section class="home__products">
+    <div class="container">
+        <div class="row home__products-line justify-content-between">
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product1.png')">
+                    </a>
                 </div>
-                <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product2.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
                 </div>
-                 <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product1.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product2.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+                <div class="home__products-line-item-price">
+                    $49.99
                 </div>
             </div>
-            <div class="row home__products-line justify-content-between">
-                <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product1.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product2.png')">
+                    </a>
                 </div>
-                 <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product2.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
                 </div>
-                <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product1.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
-                </div>
-                 <div class="col-6 col-md-3 home__products-line-item">
-                    <div class="home__products-line-item-img">
-                        <a href="#" class="a" style="background-image: url('img/product2.png')">
-                        </a>
-                    </div>
-                    <div class="home__products-line-item-name">
-                        Menth Watch
-                    </div>
-                    <div class="home__products-line-item-price">
-                        $49.99
-                    </div>
+                <div class="home__products-line-item-price">
+                    $49.99
                 </div>
             </div>
-            <div class="row home__products-button col-4 mx-auto">
-                <a href="#" class="d-flex justify-content-center align-items-center">See all offers <img src="img/Vector.png"></a>
-            </div>
-        </div>
-    </section>
-    <section class="home__about">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 home__about-title">
-                    <h2>About reward99</h2>
-                    <div class="Line-1"></div>
-                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-                    <a href="#" class="button d-flex justify-content-center align-items-center">Learn more</a>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product1.png')">
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <img src="img/team.png" alt="dream team">
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
+                </div>
+            </div>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product2.png')">
+                    </a>
+                </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
                 </div>
             </div>
         </div>
-    </section>
-    <section class="home__apps">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center home__apps-title">
-                    <h2>Get our apps</h2>
-                    <div class="Line-1"></div>
-                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <div class="row home__products-line justify-content-between">
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product1.png')">
+                    </a>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="img/iphone.png" alt="iphine">
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
+                </div>
+            </div>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product2.png')">
+                    </a>
+                </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
+                </div>
+            </div>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product1.png')">
+                    </a>
+                </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
+                </div>
+            </div>
+            <div class="col-6 col-md-3 home__products-line-item">
+                <div class="home__products-line-item-img">
+                    <a href="#" class="a" style="background-image: url('img/product2.png')">
+                    </a>
+                </div>
+                <div class="home__products-line-item-name">
+                    Menth Watch
+                </div>
+                <div class="home__products-line-item-price">
+                    $49.99
                 </div>
             </div>
         </div>
-    </section>
-    <section home__footer>
-        <div class="container">
-            <div class="row home__footer-row1">
-                <div class="col-12 col-md-2 home__footer-logo">
-                    <a href="#" class="logo"><img src="img/Logo.svg" alt="logo"></a>
-                </div>
-                <div class="col-12 col-md-2 home__footer-info1">
-                    <span>information</span>
-                    <ul class="nav nav-pills d-flex flex-column">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop Now</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Winners</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-2 d-flex flex-column home__footer-info2">
-                    <a href="#">Sign In</a>
-                    <a href="#">Register</a>
-                    <a href="#">Contuct Us</a>
-                </div>
-                <div class="col-12 col-md-2 home__footer-social">
-                    <span>follow us</span>
-                    <div class="social">
+        <div class="row home__products-button col-4 mx-auto">
+            <a href="#" class="d-flex justify-content-center align-items-center">See all offers <img src="img/Vector.png"></a>
+        </div>
+    </div>
+</section>
+<section class="home__about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 home__about-title">
+                <h2>About reward99</h2>
+                <div class="Line-1"></div>
+                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                <a href="#" class="button d-flex justify-content-center align-items-center">Learn more</a>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img src="img/team.png" alt="dream team">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="home__apps">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center home__apps-title">
+                <h2>Get our apps</h2>
+                <div class="Line-1"></div>
+                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="img/iphone.png" alt="iphine">
+            </div>
+        </div>
+    </div>
+</section>
+<section home__footer>
+    <div class="container">
+        <div class="row home__footer-row1">
+            <div class="col-12 col-md-2 home__footer-logo">
+                <a href="#" class="logo"><img src="img/Logo.svg" alt="logo"></a>
+            </div>
+            <div class="col-12 col-md-2 home__footer-info1">
+                <span>information</span>
+                <ul class="nav nav-pills d-flex flex-column">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop Now</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Winners</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 d-flex flex-column home__footer-info2">
+                <a href="#">Sign In</a>
+                <a href="#">Register</a>
+                <a href="#">Contuct Us</a>
+            </div>
+            <div class="col-12 col-md-2 home__footer-social">
+                <span>follow us</span>
+                <div class="social">
                     <a href="#"><img src="img/facebook.png" alt="facebook"></a>
                     <a href="#"><img src="img/instagram.png" alt="instagram"></a>
                     <a href="#"><img src="img/youtube.png" alt="youtube"></a>
-                    </div>
                 </div>
-                <div class="col-12 col-md-2 home__footer-pay">
-                    <span>we accept</span>
-                    <div class="social">
+            </div>
+            <div class="col-12 col-md-2 home__footer-pay">
+                <span>we accept</span>
+                <div class="social">
                     <a href="#"><img src="img/visa.png" alt="visa"></a>
                     <a href="#"><img src="img/mastercard.png" alt="mastercard"></a>
                     <a href="#"><img src="img/paypal.png" alt="paypal"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center align-items-center  home__footer-row2">
-                <div class="col-12 line1">
-                </div>
-                <div class="d-flex justify-content-center align-items-center low">
-                    <img src="img/copyright.svg" alt="C">
-                    <span> 2021 all right reserved</span>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row justify-content-center align-items-center  home__footer-row2">
+            <div class="col-12 line1">
+            </div>
+            <div class="d-flex justify-content-center align-items-center low">
+                <img src="img/copyright.svg" alt="C">
+                <span> 2021 all right reserved</span>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+<!-- swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- /swiper -->
 </body>
 </html>
