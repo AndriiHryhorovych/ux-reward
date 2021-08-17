@@ -5,11 +5,14 @@
 @import "libs/bootstrap";
 // @import "libs/bootstrap.min";
 
-
+@import "libs/slick";
+@import "libs/slick-theme";
 
 // Layout
 @import "layout/_header";
 
 // Pages
 @import "pages/_home";
+
+
 
