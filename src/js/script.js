@@ -27,8 +27,8 @@
 // });
 $('.sider-photos').slick({
   // infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  // slidesToShow: 1,
+  // slidesToScroll: 1,
   accessibility: true,
   arrows: true.
 });
